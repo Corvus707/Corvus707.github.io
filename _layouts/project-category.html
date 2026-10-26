@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign items = site.projects | where: "category", page.category %}
+<ul>
+  {% for project in items %}
+    <li>
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      {% if project.summary %} - {{ project.summary }}{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/projects/' | relative_url }}">← All projects</a></p>
