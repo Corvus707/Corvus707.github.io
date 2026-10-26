@@ -40,7 +40,7 @@ header_pages:
   - blog.markdown
   - about.markdown
   - projects.markdown
-  - projects/index.md
+  - projects/index.markdown
 
 collections:
   projects:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: models
+title: Bolter model
 category: models
 summary: test
 ---

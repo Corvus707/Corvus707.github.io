@@ -1,6 +1,6 @@
 ---
 layout: page
-title: mods
+title: Morathi mod
 category: mods
 summary: test
 ---
