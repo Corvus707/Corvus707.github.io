@@ -39,7 +39,6 @@ header_pages:
   - index.markdown
   - blog.markdown
   - about.markdown
-  - projects.markdown
   - projects/index.markdown
 
 collections:
