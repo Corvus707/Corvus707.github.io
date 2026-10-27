@@ -3,13 +3,9 @@
 
 @import "minima";
 
-.folder {
-  position: relative;
+.paper {
   max-width: 900px;
-  margin: 3.5rem auto 3rem;
-  padding: 2.5rem 2rem 3rem;
-  background: #e3c58a;
-  border: 1px solid #b8955a;
-  border-radius: 6px 12px 12px 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  margin: 2rem auto;
+  padding: 6rem 5rem;       /* adjust so the text lands on the paper area */
+  background: url("{{ '/assets/images/whitestraw_1650986636.jpg' | relative_url }}") center / 100% 100% no-repeat;
 }
