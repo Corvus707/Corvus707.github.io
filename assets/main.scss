@@ -3,9 +3,9 @@
 
 @import "minima";
 
-.paper {
+.folder {
   max-width: 900px;
   margin: 2rem auto;
-  padding: 6rem 5rem;       /* adjust so the text lands on the paper area */
+  padding: 6rem 5rem;
   background: url("{{ '/assets/images/whitestraw_1650986636.jpg' | relative_url }}") center / 100% 100% no-repeat;
 }
