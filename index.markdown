@@ -5,8 +5,19 @@
 layout: folder
 title: home
 ---
-# TEST
+# Stuff to work on (incl. projects)
 
-TEST
+##  Website
+        - Home page intro
+        - Projects page
 
-## TEST
+##  Morathi mod
+        - Basic ui implementation
+
+## Music
+        - Focus on instrumentals
+        - Maybe try vocaloid stuff
+
+## Blender
+        - Character sculpting
+        - Character rigging, posing, animating
