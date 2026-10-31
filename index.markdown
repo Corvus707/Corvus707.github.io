@@ -21,5 +21,6 @@ title: home
 ## Blender
         - Character sculpting
         - Character rigging, posing, animating
+        
 ## Github page
         - https://github.com/Corvus707/Corvus707.github.io
