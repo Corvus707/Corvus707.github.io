@@ -14,7 +14,7 @@ body.landing {
     z-index: -1;
     background:
       linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-      url("{{ '/assets/images/backgroundtest.png' | relative_url }}") center / cover no-repeat;
+      url("{{ '/assets/images/background.jpg' | relative_url }}") center / cover no-repeat;
   }
 
   /* Header */
@@ -41,7 +41,7 @@ body.landing {
 /* The window */
 .window {
   width: 100%;
-  max-width: 700px;
+  max-width: 1500px;
   background: rgba(255, 255, 255, 0.92);
   border-radius: 10px;
   overflow: hidden;
