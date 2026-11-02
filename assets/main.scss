@@ -19,7 +19,7 @@ body.landing {
 
   /* Header */
   .site-header {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.35);
     border: 0;
   }
   .site-title,
@@ -41,7 +41,7 @@ body.landing {
 /* The window */
 .window {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1000px;
   background: rgba(255, 255, 255, 0.92);
   border-radius: 10px;
   overflow: hidden;
