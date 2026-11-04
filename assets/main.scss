@@ -53,10 +53,12 @@
         transition: background 0.2s ease, border-color 0.2s ease;
       }
 
+      /* Butt the buttons together; -2px overlaps the shared diagonal border */
       &:not(:last-child) {
-        margin-right: 1rem;
+        margin-right: -2px;
       }
 
+      /* Expand in every direction on hover */
       &:hover,
       &:focus-visible {
         transform: scale(1.10);
@@ -147,30 +149,14 @@ body.landing {
 .window {
   width: 100%;
   max-width: 1000px;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
   color: #2b2b2b;
 }
 
-.window-bar {
-  display: flex;
-  gap: 8px;
-  padding: 10px 14px;
-  background: #e4e4e4;
-  border-bottom: 1px solid #cfcfcf;
 
-  span {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #bbb;
-  }
-  span:nth-child(1) { background: #ff5f57; }
-  span:nth-child(2) { background: #febc2e; }
-  span:nth-child(3) { background: #28c840; }
-}
 
 .window-body {
   padding: 2rem 2.5rem;
