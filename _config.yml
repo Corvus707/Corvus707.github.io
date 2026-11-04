@@ -35,6 +35,15 @@ plugins:
   - jekyll-feed
 
 
+# Scrolling messages in the middle of the header; one is picked at random on each page load
+header_messages:
+  - "Test"
+  - "ONEWORDALLCAPSLONGTEEEEEEEESTWAAAAGGHHHHHHHHHHHH"
+  - "Multiple words long sentence test. Blah blah blah. I sure love testing stuff yes-yes. This might have to be even longer so I am just gonna keep typing until I feel like stopping. Yeah sure this should do just nicely. Good job me. Thanks me!"
+
+# Shown instead (not scrolling) when the visitor has "reduce motion" turned on, or JavaScript is off
+header_message_static: "You have reduced motion enabled or JavaScript is off, so you can't see this awesome feature"
+
 header_pages:
   - index.markdown
   - blog.markdown
