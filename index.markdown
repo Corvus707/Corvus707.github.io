@@ -5,22 +5,13 @@
 layout: landing
 title: home
 ---
-# Stuff to work on (incl. projects)
+# Hey, I'm Corvus
+I'm making this website to show all the stuff I made or currently making. Honestly it's mostly to force myself to lock in by consistently logging my work. If this helps get me a j*b, then that would be a huge plus.
 
-##  Website
-        - Home page intro
-        - Projects page
+I also have a blog page that will *definitely* use a lot. Probably going to be filled with a lot of meaningless thoughts and stories. Mostly because I don't really like posting stuff on social media unless it's really interesting. The rest of the pages don't really need explaining.
 
-##  Morathi mod
-        - Basic ui implementation
+##  Featured project
+![Modding for Total War: Warhammer 3](/assets/images/test-image.png)
 
-## Music
-        - Focus on instrumentals
-        - Maybe try vocaloid stuff
-
-## Blender
-        - Character sculpting
-        - Character rigging, posing, animating
-
-## Github page
-        - https://github.com/Corvus707/Corvus707.github.io
+##  Socials N' Stuff
+[GitHub](https://github.com/Corvus707)
