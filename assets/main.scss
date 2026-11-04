@@ -3,6 +3,16 @@
 
 @import "minima";
 
+/* Header layout */
+.site-header .wrapper {
+  max-width: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 /* Background */
 body.landing {
   position: relative;
@@ -19,7 +29,7 @@ body.landing {
 
   /* Header */
   .site-header {
-    background: rgba(0, 0, 0, 0.35);
+    background: rgb(0, 0, 0);
     border: 0;
   }
   .site-title,
