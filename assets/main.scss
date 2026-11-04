@@ -23,7 +23,27 @@
   margin-left: auto;
 
   .page-link:not(:last-child) {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
+  }
+
+  /* Diagonal border thingy */
+  @media screen and (min-width: 600px) {
+    .page-link {
+      position: relative;
+    }
+
+    .page-link:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -1rem;
+      width: 1px;
+      height: 1.4em;
+      background: currentColor;
+      opacity: 0.7;
+      transform: translate(50%, -50%) rotate(25deg);
+      pointer-events: none;
+    }
   }
 }
 
