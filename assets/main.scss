@@ -94,6 +94,32 @@
   font-weight: 700;
 }
 
+/* Header colors (all pages) */
+.site-header {
+  background: rgb(0, 0, 0);
+  border: 0;
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link,
+.site-nav .page-link:visited {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Mobile dropdown: keep it dark so the white text shows */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.4);
+
+    .menu-icon > svg path {
+      fill: #fff;
+    }
+  }
+}
+
 /* Background */
 body.landing {
   position: relative;
@@ -106,18 +132,6 @@ body.landing {
     background:
       linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
       url("{{ '/assets/images/background.jpg' | relative_url }}") center / cover no-repeat;
-  }
-
-  /* Header */
-  .site-header {
-    background: rgb(0, 0, 0);
-    border: 0;
-  }
-  .site-title,
-  .site-title:visited,
-  .site-nav .page-link {
-    color: #fff;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
 
   /* Centered window */
